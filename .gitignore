@@ -1,0 +1,48 @@
+# Environment & secrets
+.env
+.venv/
+venv/
+
+# Personal data (generated at runtime)
+imessage_export_mac/*.txt
+imessage_export_ios/
+imessage_export_merged/
+contacts.vcf
+selected_conversations.json
+persona_config.json
+training_data*.json
+generation_errors.log
+.memory_corpus/
+.fact_bank/
+
+# Arena verdicts + logs (contain your chat queries)
+.arena_data/
+arena_results/
+logs/
+
+# Runs (training, eval — all state/logs/results)
+train_output/
+eval_output/
+training_state.json
+eval_state*.json
+eval_config*.json
+eval_worker*.log
+
+# Generated outputs
+experiment_output/*/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE / agents
+.claude/
+.cursor/
+.vscode/
+*.swp
+*.swo

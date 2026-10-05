@@ -1,0 +1,93 @@
+# ────────────────────────────────────────────────────────────────────
+# Which model each task in the pipeline uses.
+# ────────────────────────────────────────────────────────────────────
+# The values below are the models used for the blog post. Any model works:
+#
+#   API models (annotation, judge, translate, rewrite, dpo_filter, style_judge, fact_*):
+#     claude-*          → Anthropic       (ANTHROPIC_API_KEY)
+#     gpt-*, o1/o3/o4-* → OpenAI          (OPENAI_API_KEY)
+#   Each of these tasks also takes a `base_url` for any OpenAI-compatible
+#   endpoint, e.g. https://openrouter.ai/api/v1 with an OpenRouter model id
+#   (uses OPENROUTER_API_KEY).
+#
+#   Trained / served models (user_model, assistant):
+#     any HuggingFace model id that LlamaFactory + vLLM support. The chat
+#     template is detected from the model name; set `template` to override.
+#     Serving uses one H100 per model, so each must fit on a single 80 GB GPU
+#     (quantized if needed); training scales to 2-4 GPUs by model size.
+#
+# `reasoning` is optional: low | medium | high (null = provider default).
+#
+# One-off overrides: ANNOTATION_MODEL, JUDGE_MODEL, TRANSLATE_MODEL (and the
+# matching *_REASONING / JUDGE_BASE_URL) in .env take precedence over this file.
+#
+# After editing, re-run `modal deploy modal_app.py`: code running on Modal
+# reads the copy of this file baked in at deploy time.
+# ────────────────────────────────────────────────────────────────────
+
+# Step 3 — relationship summaries, conversation context, and reconstructed
+# internal reasoning for every SFT example.
+annotation:
+  model: gpt-5.5
+  reasoning: medium
+
+# Step 4 — base model fine-tuned into the user model (IMPersona).
+user_model:
+  base: meta-llama/Llama-3.1-8B-Instruct
+  # template: llama3   # LlamaFactory chat template (detected from the name if omitted)
+
+# Steps 5–8, 10 — the assistant: eval rollout partner, on-policy rewriter,
+# and the model DPO-trained on the user model's feedback. Served on Modal.
+assistant:
+  base: Qwen/Qwen3.5-27B-FP8
+  # template: qwen3_5  # LlamaFactory chat template (detected from the name if omitted)
+  thinking: false      # reasoning models answer without a thinking trace in eval and the arena
+
+# Step 5 — LLM judge for coherence scores and per-turn disagreement labels.
+judge:
+  model: claude-opus-4-6
+  reasoning: null
+  base_url: null
+
+# Step 6 — turns the user model's private reaction into an observable guideline.
+translate:
+  model: claude-opus-4-6
+  reasoning: null
+
+# Step 6 — rewriter used only if you choose an API model instead of on-policy
+# rewrites by the assistant itself.
+rewrite:
+  model: claude-opus-4-6
+
+# Optional — judge for `python -m IMPersona2.filter_dpo_dataset`.
+dpo_filter:
+  model: gpt-5.4
+  reasoning: medium
+
+# Fidelity evals on the user model (python run.py --step fidelity).
+# Style judge — do the user model's messages read like your real texting?
+style_judge:
+  model: claude-opus-4-6
+
+# Fact recall, stage 1 — proposes facts about you each scenario should draw on.
+fact_propose:
+  model: claude-opus-4-6
+
+# Fact recall, stage 2 — search agent that finds each fact in your messages.
+# This is the most expensive step: one multi-round search per unique fact.
+fact_search:
+  model: claude-opus-4-6
+
+# Fact recall, stage 4 — labels each verified fact in an eval conversation.
+fact_judge:
+  model: claude-opus-4-6
+
+# Step 9 — embeddings for the memory-search index (OpenAI embeddings API).
+embeddings:
+  model: text-embedding-3-large
+
+# Step 10 — arena baselines, served via OpenRouter (OPENROUTER_API_KEY).
+# The trained assistant in the arena uses `assistant.base` + your DPO adapter.
+arena:
+  baseline: qwen/qwen3.5-27b              # the untrained assistant (with and without memory search)
+  large_baseline: qwen/qwen3.5-397b-a17b  # a larger model with memory search

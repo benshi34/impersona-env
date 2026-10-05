@@ -1,0 +1,1042 @@
+[
+  {
+    "id": "therapy_vague_malaise",
+    "category": "therapy",
+    "name": "Vague Malaise",
+    "quick": false,
+    "description": "The IMPersona has been feeling off but can't pinpoint why. Tests whether the AI can draw out underlying feelings without pushing too hard.",
+    "impersona_context": "You've been feeling vaguely 'off' for the past few weeks — not depressed exactly, but unmotivated and disconnected. You're not sure why. You open an AI chatbot to try to figure out what's going on."
+  },
+  {
+    "id": "therapy_burnout",
+    "category": "therapy",
+    "name": "Burnout They Won't Admit To",
+    "quick": true,
+    "description": "The IMPersona is burned out but intellectualizing it. Tests whether the AI can get past the rationalizations.",
+    "impersona_context": "You've been grinding on research and applications for months without a real break. You open an AI chatbot to talk through how you're doing."
+  },
+  {
+    "id": "therapy_imposter_syndrome",
+    "category": "therapy",
+    "name": "Imposter Syndrome",
+    "quick": false,
+    "description": "The IMPersona got positive feedback but is spiraling with imposter syndrome. Tests whether the AI can help them sit with the feeling.",
+    "impersona_context": "You recently got positive feedback on your work, but you've been having nagging doubts about whether you actually deserved it. You open an AI chatbot because you need somewhere to put the noise."
+  },
+  {
+    "id": "acute_major_rejection",
+    "category": "acute_support",
+    "name": "Major Rejection",
+    "quick": true,
+    "description": "The IMPersona just got rejected from their top-choice program. Tests whether the AI can read emotional state and match energy.",
+    "impersona_context": "You just got rejected from the PhD program that was your top choice. You found out an hour ago. You open an AI chatbot to process it."
+  },
+  {
+    "id": "acute_friendship_deteriorating",
+    "category": "acute_support",
+    "name": "Friendship Falling Apart",
+    "quick": false,
+    "description": "A close friendship is ending and the IMPersona is processing it. Tests whether the AI can be a sounding board without taking sides.",
+    "impersona_context": "A close friendship of yours has been deteriorating for months, and you just had a conversation with that friend that made it clear things probably won't recover. You open an AI chatbot to process what just happened."
+  },
+  {
+    "id": "stress_presentation_anxiety",
+    "category": "stress",
+    "name": "Pre-Presentation Spiral",
+    "quick": false,
+    "description": "The IMPersona has a major presentation tomorrow and is spiraling. Tests whether the AI can distinguish practical vs emotional needs.",
+    "impersona_context": "You have a major presentation tomorrow — presenting your research to a group that includes potential PhD advisors. You open an AI chatbot to help you prep and calm down."
+  },
+  {
+    "id": "stress_everything_at_once",
+    "category": "stress",
+    "name": "Everything Hitting At Once",
+    "quick": false,
+    "description": "Multiple deadlines are hitting simultaneously and the IMPersona is overwhelmed. Tests whether the AI can read bandwidth.",
+    "impersona_context": "Multiple deadlines are hitting simultaneously — a paper submission, a job application, and a family obligation you can't skip. You haven't slept well in days. You open an AI chatbot to try to get your head above water."
+  },
+  {
+    "id": "drawing_out_something_wrong",
+    "category": "drawing_out",
+    "name": "Something's Off But 'I'm Fine'",
+    "quick": false,
+    "description": "The IMPersona is upset about something but trying to act normal. Tests whether the AI can read subtle cues and create safe space.",
+    "impersona_context": "Something happened earlier today that upset you — a conflict with someone you care about. You're not in your normal headspace. You open an AI chatbot to try to talk through it."
+  },
+  {
+    "id": "drawing_out_career_doubt",
+    "category": "drawing_out",
+    "name": "Quiet Career Doubt",
+    "quick": false,
+    "description": "The IMPersona is quietly questioning their career path but won't volunteer it. Tests whether the AI can sense and gently surface deeper concerns.",
+    "impersona_context": "You've been quietly having doubts about whether you're on the right career path. You open an AI chatbot to try to pin down what's actually bothering you."
+  },
+  {
+    "id": "difficult_honest_feedback",
+    "category": "difficult_realizations",
+    "name": "Receiving Honest Feedback",
+    "quick": false,
+    "description": "The IMPersona shares work they're proud of and gets critical feedback. Tests how the AI calibrates honesty with sensitivity.",
+    "impersona_context": "You just finished a draft of something you've been working hard on — a research paper or project proposal. You open an AI chatbot to share it and get honest feedback."
+  },
+  {
+    "id": "difficult_recognizing_pattern",
+    "category": "difficult_realizations",
+    "name": "Recognizing a Pattern",
+    "quick": false,
+    "description": "The IMPersona reveals a pattern of overcommitting and dropping the ball. Tests whether the AI can reflect it back gently.",
+    "impersona_context": "You've been overcommitting to things and then dropping the ball — missing deadlines, being late, and forgetting commitments. You open an AI chatbot because you want to figure out what's going on with you."
+  },
+  {
+    "id": "decisions_industry_vs_academia",
+    "category": "life_decisions",
+    "name": "Industry vs. Academia Crossroads",
+    "quick": true,
+    "description": "The IMPersona is torn between a lucrative industry offer and pursuing a PhD. Tests whether the AI can help without steering.",
+    "impersona_context": "You have a lucrative industry offer, and you've also been accepted to a PhD program. The deadline to decide is approaching. You open an AI chatbot to think it through."
+  },
+  {
+    "id": "decisions_vulnerability_in_relationship",
+    "category": "life_decisions",
+    "name": "Vulnerability in Relationships",
+    "quick": false,
+    "description": "The IMPersona is wrestling with being emotionally open in a relationship. Tests whether the AI can access the emotional dimension.",
+    "impersona_context": "You're in a relationship that's getting more serious, and you're at a point where being more emotionally open could deepen it. You open an AI chatbot to think through what that would actually look like."
+  },
+  {
+    "id": "casual_bored",
+    "category": "casual",
+    "name": "I'm Bored",
+    "quick": true,
+    "description": "The IMPersona has nothing going on and opens the AI to kill time. Tests casual banter, humor, and playfulness — a very different register from emotional scenarios.",
+    "impersona_context": "You have nothing going on right now. You're lying on your bed scrolling through your phone, bored out of your mind. You open an AI chatbot to kill time."
+  },
+  {
+    "id": "casual_what_to_watch",
+    "category": "casual",
+    "name": "What Should I Watch?",
+    "quick": true,
+    "description": "The IMPersona wants a show or movie recommendation. Tests whether they express taste and preferences, and whether engagement spikes around interests.",
+    "impersona_context": "You want to watch something tonight but have no idea what. You open an AI chatbot for recommendations."
+  },
+  {
+    "id": "casual_minor_rant",
+    "category": "casual",
+    "name": "Minor Rant",
+    "quick": false,
+    "description": "Something mildly annoying happened and the IMPersona wants to vent. Tests low-stakes frustration vs. the heavy emotional scenarios.",
+    "impersona_context": "You just had an annoying experience — you ordered food delivery and they got your order completely wrong, plus it took forever. You open an AI chatbot to vent about it."
+  },
+  {
+    "id": "casual_what_to_eat",
+    "category": "casual",
+    "name": "What Should I Eat?",
+    "quick": false,
+    "description": "The IMPersona is hungry and indecisive. Tests casual decision-making and preference expression.",
+    "impersona_context": "You're hungry but can't decide what to eat. You're feeling lazy, so cooking is a maybe. You open an AI chatbot to figure it out."
+  },
+  {
+    "id": "practical_help_reply",
+    "category": "practical",
+    "name": "Help Me Reply to This Text",
+    "quick": true,
+    "description": "The IMPersona got a text and isn't sure how to respond. Tests social reasoning and how the IMPersona talks about other people.",
+    "impersona_context": "A friend you haven't talked to in a while just texted you asking to hang out this weekend, but you already have plans and can't make it. You open an AI chatbot to help you figure out how to respond."
+  },
+  {
+    "id": "practical_email_help",
+    "category": "practical",
+    "name": "Help Me Write an Email",
+    "quick": false,
+    "description": "The IMPersona needs to write a professional email and wants help with tone. Tests practical task collaboration.",
+    "impersona_context": "You need to write an email to a professor asking about potential research opportunities. You open an AI chatbot to help you draft it."
+  },
+  {
+    "id": "practical_gift_idea",
+    "category": "practical",
+    "name": "Gift Idea Brainstorm",
+    "quick": false,
+    "description": "The IMPersona needs a gift idea for someone. Tests how they describe people they care about and whether they engage creatively.",
+    "impersona_context": "A close friend's birthday is coming up and you have no idea what to get them. You open an AI chatbot to brainstorm ideas."
+  },
+  {
+    "id": "positive_good_news",
+    "category": "positive",
+    "name": "Something Good Happened",
+    "quick": true,
+    "description": "The IMPersona just got great news and wants to share. Tests whether the IMPersona can express genuine excitement — the opposite end of the engagement spectrum.",
+    "impersona_context": "You just found out you got accepted into a program you applied to — or got a job offer, or your paper got accepted. You open an AI chatbot to share the good news."
+  },
+  {
+    "id": "positive_cool_thing",
+    "category": "positive",
+    "name": "Check This Out",
+    "quick": false,
+    "description": "The IMPersona found something interesting and wants to discuss it. Tests curiosity, intellectual engagement, and enthusiasm.",
+    "impersona_context": "You just watched a really interesting video or read an article about something related to AI or technology that blew your mind. You open an AI chatbot to talk through it."
+  },
+  {
+    "id": "social_should_i_go",
+    "category": "social",
+    "name": "Should I Go to This Thing?",
+    "quick": false,
+    "description": "The IMPersona is on the fence about a social event. Tests low-stakes decision-making with social dynamics.",
+    "impersona_context": "You got invited to a party this weekend by someone you kind of know but aren't super close with. You've been staying in a lot lately. You open an AI chatbot to think through whether to go."
+  },
+  {
+    "id": "checkin_how_was_your_day",
+    "category": "check_in",
+    "name": "How Was Your Day",
+    "quick": true,
+    "description": "The IMPersona just got home and opens the AI to debrief about their day. Tests casual back-and-forth, active listening, and the ability to follow up on details without making it feel like an interview.",
+    "impersona_context": "You just got home after a long day — classes, errands, and a couple of social interactions. Nothing dramatic happened, but you have thoughts about the day. You open an AI chatbot to debrief."
+  },
+  {
+    "id": "coordination_plan_weekend",
+    "category": "social_coordination",
+    "name": "Help Me Plan This Weekend",
+    "quick": false,
+    "description": "The IMPersona has a free weekend and wants help figuring out what to do. Tests practical planning, preference exploration, and logistics thinking.",
+    "impersona_context": "You have a rare completely free weekend coming up — no obligations, no deadlines. You want to make the most of it but aren't sure what to do. You open an AI chatbot to figure out how to spend it."
+  },
+  {
+    "id": "information_random_question",
+    "category": "information",
+    "name": "Random Curious Question",
+    "quick": true,
+    "description": "The IMPersona has a random question they're curious about — the kind of thing you'd text a smart friend. Tests information exchange in a casual, conversational way.",
+    "impersona_context": "Something random popped into your head that you're genuinely curious about — maybe something you saw, read, or were just wondering about. You open an AI chatbot to ask about it."
+  },
+  {
+    "id": "conflict_fight_with_someone",
+    "category": "conflict",
+    "name": "I Got Into It With Someone",
+    "quick": false,
+    "description": "The IMPersona had a tense argument or confrontation and needs to process it. Tests whether the AI can be a sounding board for anger/frustration without just validating everything or lecturing about the other side.",
+    "impersona_context": "You got into an argument with someone — maybe a roommate, a friend, or a classmate. It got heated and you said some things. You're still worked up. You open an AI chatbot to cool off and think through it."
+  },
+  {
+    "id": "banter_late_night_deep_talk",
+    "category": "banter",
+    "name": "Late Night Deep Talk",
+    "quick": false,
+    "description": "It's late at night and the IMPersona is in a philosophical, contemplative mood. Tests whether the persona can engage with abstract ideas, existential questions, and the kind of meandering late-night conversation you'd have with a close friend.",
+    "impersona_context": "It's late at night, you can't sleep, and your mind is wandering to big questions — about life, the future, what it all means. You open an AI chatbot to get into it."
+  },
+  {
+    "id": "family_processing_interaction",
+    "category": "family",
+    "name": "Family Stuff",
+    "quick": false,
+    "description": "The IMPersona is processing something a family member said or did — the kind of thing you'd text a friend about. Tests how they talk about family dynamics and whether the AI can navigate the complexity of family relationships.",
+    "impersona_context": "You just had a phone call or visit with a parent or family member that left you feeling some kind of way — maybe they said something that got under your skin, or there was an expectation you're struggling with. You open an AI chatbot to process it."
+  },
+  {
+    "id": "health_is_this_normal",
+    "category": "health",
+    "name": "Is This Normal?",
+    "quick": true,
+    "description": "The IMPersona has a health concern or body thing they're not sure about — the kind of thing you'd text a friend before deciding whether to see a doctor. Tests casual health conversation without being alarmist or dismissive.",
+    "impersona_context": "You've noticed something with your body or health that's been bugging you — maybe you've been unusually tired, having headaches, or something feels off. You're not sure if it's worth worrying about. You open an AI chatbot to talk it through before deciding whether to see a doctor."
+  },
+  {
+    "id": "recommendation_should_i_buy",
+    "category": "recommendation",
+    "name": "Should I Buy This?",
+    "quick": true,
+    "description": "The IMPersona is considering a purchase and wants to talk through whether it's worth it. Tests practical reasoning, preference expression, and whether the AI can help without being preachy about money.",
+    "impersona_context": "You've been eyeing something you want to buy — could be tech, clothes, a game, or gear for a hobby. It's not cheap but it's not crazy expensive either. You're going back and forth. You open an AI chatbot to think through whether it's worth it."
+  },
+  {
+    "id": "collaboration_help_me_understand",
+    "category": "collaboration",
+    "name": "Help Me Understand This",
+    "quick": false,
+    "description": "The IMPersona is trying to learn or understand something and wants to work through it together. Tests collaborative learning — the kind of thing you'd ask a knowledgeable friend for help with.",
+    "impersona_context": "You're studying something or trying to understand a concept that's not clicking — could be for a class, a project, or just personal curiosity. You've read about it but it's not making sense. You open an AI chatbot to work through it."
+  },
+  {
+    "id": "motivation_get_it_together",
+    "category": "motivation",
+    "name": "I Need to Get My Shit Together",
+    "quick": true,
+    "description": "The IMPersona knows they need to do something but can't get started — gym, homework, cleaning, applying to something. Tests accountability and motivation without being annoying about it.",
+    "impersona_context": "There's something you've been putting off that you really need to do — you know you should, you keep saying you will, but you haven't started. It's weighing on you. You open an AI chatbot to talk yourself into actually doing it."
+  },
+  {
+    "id": "conflict_i_messed_up",
+    "category": "conflict",
+    "name": "I Think I Messed Up",
+    "quick": false,
+    "description": "The IMPersona did something they regret — hurt someone, said the wrong thing, or made a bad call — and is trying to figure out how to make it right. Tests self-reflection, accountability, and practical repair skills.",
+    "impersona_context": "You said or did something recently that you're pretty sure hurt someone or was the wrong call. You've been replaying it in your head. You open an AI chatbot to figure out how to make it right."
+  },
+  {
+    "id": "coordination_trip_planning",
+    "category": "social_coordination",
+    "name": "Trip Planning",
+    "quick": false,
+    "description": "The IMPersona is thinking about taking a trip and wants to brainstorm and plan. Tests creative collaboration, logistics thinking, and sustained engagement on a practical project.",
+    "impersona_context": "You're thinking about taking a trip sometime soon — maybe a weekend getaway or a longer trip. You have a vague idea of where but haven't figured out the details. You open an AI chatbot to brainstorm and plan."
+  },
+  {
+    "id": "coordination_visiting_friend",
+    "category": "social_coordination",
+    "name": "Visiting a Friend Out of Town",
+    "quick": true,
+    "description": "The IMPersona is planning to visit a friend in another city and needs help with logistics — when to go, how to get there, what to do while there. Tests the kind of travel coordination that dominates real texting data.",
+    "impersona_context": "A friend who lives in another city has been saying you should come visit. You're finally thinking about actually doing it, but you need to figure out timing, transportation, and what you'd even do there. You open an AI chatbot to help you sort out the details."
+  },
+  {
+    "id": "coordination_spontaneous_trip",
+    "category": "social_coordination",
+    "name": "Last-Minute Weekend Trip",
+    "quick": true,
+    "description": "The IMPersona just realized they have a long weekend free and is considering a spontaneous trip. Tests fast-paced planning, decisiveness, and excitement.",
+    "impersona_context": "You just realized you have a three-day weekend coming up with nothing planned. You're feeling impulsive and thinking about going somewhere — you don't have a destination in mind yet. You open an AI chatbot to figure out where to go."
+  },
+  {
+    "id": "coordination_travel_logistics",
+    "category": "social_coordination",
+    "name": "Figuring Out Travel Logistics",
+    "quick": false,
+    "description": "The IMPersona has a trip coming up and needs help sorting out the logistics — flights, rides, packing, timing. Tests practical coordination and problem-solving, mirroring the common 'airport/flight coordination' conversations in the data.",
+    "impersona_context": "You have a trip coming up in a few days and you haven't figured out all the logistics yet — you need to sort out transportation, figure out what to pack, and coordinate timing with people. You open an AI chatbot to help you sort it out."
+  },
+  {
+    "id": "dating_should_i_text_back",
+    "category": "dating",
+    "name": "Should I Text Them Back?",
+    "quick": false,
+    "description": "The IMPersona got a message from someone they're interested in and is overthinking how to respond. Tests whether the AI can help with romantic social reasoning without being generic or preachy.",
+    "impersona_context": "Someone you've been talking to — you matched on an app a couple weeks ago and have been texting on and off — just sent you a message and you're not sure how to respond. You like them but you don't want to come on too strong or seem desperate. You open an AI chatbot to figure out how to reply."
+  },
+  {
+    "id": "dating_mixed_signals",
+    "category": "dating",
+    "name": "Mixed Signals",
+    "quick": false,
+    "description": "The IMPersona is confused about mixed signals from someone they're dating. Tests whether the AI can help them interpret social cues without projecting or being dismissive.",
+    "impersona_context": "You've been seeing someone for a few weeks — things seemed to be going well, but lately their behavior has been inconsistent. Sometimes they're really engaged, other times they take forever to respond or seem distant. You open an AI chatbot to make sense of what's going on."
+  },
+  {
+    "id": "dating_after_first_date",
+    "category": "dating",
+    "name": "How Did the Date Go?",
+    "quick": false,
+    "description": "The IMPersona just got back from a first date and is debriefing. Tests whether the AI can be an engaged friend — asking the right questions, reading excitement vs uncertainty, and helping process the experience.",
+    "impersona_context": "You just got home from a first date. It wasn't terrible but it wasn't amazing either. You open an AI chatbot to debrief and figure out whether you'd want to see them again."
+  },
+  {
+    "id": "work_annoying_coworker",
+    "category": "work",
+    "name": "Coworker Frustration",
+    "quick": false,
+    "description": "The IMPersona is frustrated with a coworker or classmate in a group project setting. Tests whether the AI can be a sounding board for workplace frustrations without being preachy or HR-sounding.",
+    "impersona_context": "You're working on a group project — research or class-related — and one person keeps dropping the ball. They missed a deadline, you had to pick up their slack, and you're annoyed but not sure whether to say something. You open an AI chatbot to figure out how to handle it."
+  },
+  {
+    "id": "work_boss_said_something",
+    "category": "work",
+    "name": "My Boss/Advisor Said Something Weird",
+    "quick": false,
+    "description": "The IMPersona's supervisor or advisor said something that's been bothering them and they're trying to decode it. Tests social intelligence in a power-dynamic context.",
+    "impersona_context": "Your supervisor, professor, or advisor said something in a meeting or conversation that stuck with you — it wasn't overtly negative but the way they said it has been bugging you. You open an AI chatbot to try to decode it and figure out if you should be worried."
+  },
+  {
+    "id": "money_splitting_costs",
+    "category": "money",
+    "name": "Splitting Costs With Friends",
+    "quick": false,
+    "description": "The IMPersona is dealing with an awkward money situation with friends — someone owes them, a split was unfair, or they need to bring up costs. Tests navigating the emotional minefield of money between friends.",
+    "impersona_context": "You went out with friends recently and the bill situation was awkward — either someone didn't pay their share, you covered more than you should have, or you need to ask someone to pay you back and it feels weird. You open an AI chatbot to figure out how to handle it."
+  },
+  {
+    "id": "money_impulse_vs_saving",
+    "category": "money",
+    "name": "I Want It But Should I Save?",
+    "quick": false,
+    "description": "The IMPersona is torn between spending on something fun and being responsible with money. Tests whether the AI can help with a practical-emotional tension without being preachy.",
+    "impersona_context": "You've been eyeing something you really want — a trip, a concert ticket, a nice piece of tech — but you know you should probably be saving money. You're going back and forth between treating yourself and being responsible. You open an AI chatbot to think it through."
+  },
+  {
+    "id": "money_feeling_behind",
+    "category": "money",
+    "name": "Feeling Behind Financially",
+    "quick": false,
+    "description": "The IMPersona is comparing themselves to peers financially and feeling behind. Tests whether the AI can address a sensitive insecurity without being dismissive or patronizing.",
+    "impersona_context": "You've been noticing that people around you — friends, classmates, people on social media — seem to have more money figured out than you do. Someone just bought a car or put a down payment on something and you're still living paycheck to paycheck. You open an AI chatbot to talk through how you're feeling about it."
+  },
+  {
+    "id": "creative_naming_something",
+    "category": "creative",
+    "name": "Help Me Name This",
+    "quick": false,
+    "description": "The IMPersona needs a name for something — a project, a group chat, a playlist, a pet. Tests playful creative collaboration and whether the AI can riff on vibes.",
+    "impersona_context": "You need to name something — maybe a project you're working on, a group chat, a playlist, or something else — and you're stuck. You have a vague sense of the vibe you want but can't nail the actual name. You open an AI chatbot to brainstorm with."
+  },
+  {
+    "id": "creative_stuck_on_project",
+    "category": "creative",
+    "name": "I'm Stuck on This Creative Thing",
+    "quick": false,
+    "description": "The IMPersona is working on something creative — writing, design, music — and is stuck. Tests whether the AI can be a creative collaborator without taking over.",
+    "impersona_context": "You've been working on something creative — maybe writing something, designing something, or working on a personal project — and you've hit a wall. You know what you want it to feel like but can't get there. You open an AI chatbot to talk through it."
+  },
+  {
+    "id": "creative_roast_my_idea",
+    "category": "creative",
+    "name": "Roast My Idea",
+    "quick": false,
+    "description": "The IMPersona has an idea they're excited about but wants honest pushback. Tests whether the AI can stress-test ideas constructively — the friend who tells you the truth.",
+    "impersona_context": "You have an idea you've been thinking about — could be a startup idea, a project, a plan for something — and you want someone to poke holes in it. You think it might be good but you're not sure if you're just being biased. You open an AI chatbot to stress-test it."
+  },
+  {
+    "id": "gossip_did_you_see_what_they_posted",
+    "category": "gossip",
+    "name": "Did You See What They Posted?",
+    "quick": false,
+    "description": "The IMPersona saw something on social media that they want to discuss/analyze. Tests casual social analysis, reading between the lines, and the kind of low-stakes social commentary friends text about constantly.",
+    "impersona_context": "Someone you know posted something on social media — Instagram, Twitter, whatever — that caught your attention. Maybe it was subtly shady, unexpectedly personal, or just noteworthy in the context of what's been going on. You open an AI chatbot to think through what it means."
+  },
+  {
+    "id": "gossip_friend_group_drama",
+    "category": "gossip",
+    "name": "Friend Group Drama",
+    "quick": false,
+    "description": "Something is happening in the IMPersona's friend group — tension between people, someone said something, alliances shifting. Tests social intelligence and the ability to help navigate group dynamics.",
+    "impersona_context": "There's some drama happening in your friend group — maybe two people aren't getting along, someone did something that caused tension, or there's a situation where you're caught in the middle. You open an AI chatbot to think through how to handle it."
+  },
+  {
+    "id": "roommate_annoying_habit",
+    "category": "roommate",
+    "name": "Roommate's Annoying Habit",
+    "quick": false,
+    "description": "The IMPersona is frustrated with a roommate's behavior — noise, cleanliness, boundaries. Tests low-to-medium stakes conflict navigation in a cohabitation context.",
+    "impersona_context": "Your roommate does something that's been really getting on your nerves — maybe they're messy, loud, have people over too much, or eat your food. It's been building up and you're trying to decide whether to say something. You open an AI chatbot to think through how to bring it up."
+  },
+  {
+    "id": "roommate_lease_decision",
+    "category": "roommate",
+    "name": "Should I Renew the Lease?",
+    "quick": false,
+    "description": "The IMPersona is deciding whether to stay in their current living situation or make a change. Tests practical-emotional decision-making about housing.",
+    "impersona_context": "Your lease is coming up for renewal and you need to decide whether to stay or move. There are pros and cons to both — the current place is fine but not great, and moving is a hassle, but there are things you'd want to change. You open an AI chatbot to think through what to do."
+  },
+  {
+    "id": "roommate_new_roommate_situation",
+    "category": "roommate",
+    "name": "Living With Someone New",
+    "quick": false,
+    "description": "The IMPersona is about to move in with someone (or just did) and is navigating the adjustment. Tests social navigation around setting expectations and boundaries in a new cohabitation.",
+    "impersona_context": "You recently moved in with someone new — could be a friend, a random off Craigslist, or someone from a mutual connection. The adjustment is happening and there are already some things you're noticing. You open an AI chatbot to talk through how it's going."
+  },
+  {
+    "id": "fitness_want_to_start",
+    "category": "fitness",
+    "name": "I Want to Start Working Out",
+    "quick": false,
+    "description": "The IMPersona wants to start exercising but doesn't know where to begin. Tests whether the AI can help with a common motivation + planning challenge without being a fitness influencer.",
+    "impersona_context": "You've been wanting to start working out — you haven't been active in a while and you're feeling it. You don't really know where to start and gyms are kind of intimidating. You open an AI chatbot to figure out how to begin."
+  },
+  {
+    "id": "fitness_body_image",
+    "category": "fitness",
+    "name": "Not Happy With How I Look",
+    "quick": false,
+    "description": "The IMPersona is dealing with body image concerns — not a clinical issue, just the normal insecurity of not being happy with their appearance. Tests emotional sensitivity around a vulnerable topic.",
+    "impersona_context": "You've been feeling unhappy with how you look — maybe you've gained weight, feel out of shape, or just caught a photo of yourself you didn't like. It's been on your mind more than you'd like to admit. You open an AI chatbot because you don't want to bring it up to anyone you know."
+  },
+  {
+    "id": "fitness_sleep_problems",
+    "category": "fitness",
+    "name": "I Can't Sleep",
+    "quick": false,
+    "description": "The IMPersona has been having trouble sleeping and it's affecting everything. Tests whether the AI can be helpful about a wellness issue without sounding like a WebMD article.",
+    "impersona_context": "You've been having trouble sleeping — either you can't fall asleep, you wake up in the middle of the night, or you sleep but don't feel rested. It's been going on for a while and it's making everything harder. You open an AI chatbot to talk it through."
+  },
+  {
+    "id": "homework_concept_not_clicking",
+    "category": "homework",
+    "name": "This Concept Isn't Clicking",
+    "quick": false,
+    "description": "The IMPersona is studying something and a core concept isn't making sense. Tests collaborative learning — explaining, re-explaining, using analogies.",
+    "impersona_context": "You're studying for an exam and there's one concept that you keep reading about but it's just not clicking. You've gone through the textbook and watched videos but it still feels fuzzy. You open an AI chatbot to help you understand it."
+  },
+  {
+    "id": "homework_essay_structure",
+    "category": "homework",
+    "name": "Help Me Structure This Essay",
+    "quick": false,
+    "description": "The IMPersona has to write an essay and knows what they want to say but can't organize it. Tests practical writing collaboration.",
+    "impersona_context": "You have an essay due soon. You have ideas and notes but you can't figure out how to structure it — what goes where, how to connect your points, what the argument actually is. You open an AI chatbot to help you organize it."
+  },
+  {
+    "id": "homework_math_problem",
+    "category": "homework",
+    "name": "Walk Me Through This Problem",
+    "quick": false,
+    "description": "The IMPersona is stuck on a math or quantitative problem and wants step-by-step help. Tests pedagogical patience and the ability to teach without just giving the answer.",
+    "impersona_context": "You're working on a problem set and you're stuck on a problem. You've tried a couple approaches but keep getting stuck or getting the wrong answer. You open an AI chatbot to walk through it."
+  },
+  {
+    "id": "homework_study_strategy",
+    "category": "homework",
+    "name": "How Should I Study for This?",
+    "quick": false,
+    "description": "The IMPersona has an exam coming up and doesn't know how to approach studying. Tests practical planning and study advice.",
+    "impersona_context": "You have a big exam coming up in a few days and you're not sure how to study for it. There's a lot of material and you don't know what to prioritize or what method to use. You open an AI chatbot to figure out a plan."
+  },
+  {
+    "id": "homework_is_my_answer_right",
+    "category": "homework",
+    "name": "Is My Answer Right?",
+    "quick": false,
+    "description": "The IMPersona worked through something and wants to check their reasoning. Tests the ability to evaluate work, catch errors, and validate understanding.",
+    "impersona_context": "You worked through a problem or question on your own and you think you got it but you're not confident. You want someone to check your reasoning. You open an AI chatbot to look it over."
+  },
+  {
+    "id": "homework_procrastinating_hard",
+    "category": "homework",
+    "name": "I Can't Start This Assignment",
+    "quick": false,
+    "description": "The IMPersona has an assignment they can't bring themselves to start. Tests the intersection of practical help and emotional support — is the block about the work itself or something else?",
+    "impersona_context": "You have an assignment due and you've been staring at a blank page for way too long. You know you need to start but something is blocking you. You open an AI chatbot to try to get unstuck."
+  },
+  {
+    "id": "homework_group_project_coordination",
+    "category": "homework",
+    "name": "Group Project Is a Mess",
+    "quick": false,
+    "description": "The IMPersona's group project is poorly organized and they're trying to figure out how to get it on track. Tests project management and social navigation.",
+    "impersona_context": "You're in a group project for a class and it's not going well — the work isn't divided clearly, people aren't communicating, and the deadline is approaching. You're not officially the leader but someone needs to step up. You open an AI chatbot to think through how to handle it."
+  },
+  {
+    "id": "homework_explain_like_im_five",
+    "category": "homework",
+    "name": "Explain This Simply",
+    "quick": false,
+    "description": "The IMPersona understands something at a surface level but needs a deeper intuitive understanding. Tests the ability to simplify without being condescending.",
+    "impersona_context": "You sort of understand a topic you're studying but you feel like you're memorizing rather than truly understanding it. You want someone to explain it in a way that actually makes intuitive sense. You open an AI chatbot to help it click."
+  },
+  {
+    "id": "homework_compare_and_contrast",
+    "category": "homework",
+    "name": "What's the Difference Between X and Y?",
+    "quick": false,
+    "description": "The IMPersona is confused about the distinction between two related concepts. Tests clarity in explanation and the ability to draw precise distinctions.",
+    "impersona_context": "You're studying and there are two concepts that seem really similar and you can't figure out the actual difference between them. Every explanation you read uses the same confusing language. You open an AI chatbot to help you sort it out."
+  },
+  {
+    "id": "homework_review_before_submitting",
+    "category": "homework",
+    "name": "Can You Look This Over Before I Submit?",
+    "quick": false,
+    "description": "The IMPersona has finished something and wants a final review. Tests the ability to give useful last-minute feedback — catching real issues without creating anxiety.",
+    "impersona_context": "You just finished an assignment, paper, or application and you want someone to look it over before you submit it. You think it's mostly done but you're worried you might be missing something. You open an AI chatbot for a final check."
+  },
+  {
+    "id": "writing_cover_letter",
+    "category": "writing",
+    "name": "Help Me Write a Cover Letter",
+    "quick": false,
+    "description": "The IMPersona needs to write a cover letter for a job or program application. Tests collaborative writing — finding the right tone, highlighting strengths authentically.",
+    "impersona_context": "You're applying for a job or program and you need to write a cover letter. You hate writing cover letters because they feel fake and formulaic. You open an AI chatbot to help you draft it."
+  },
+  {
+    "id": "writing_social_media_caption",
+    "category": "writing",
+    "name": "Help Me Caption This Post",
+    "quick": false,
+    "description": "The IMPersona wants to post something on social media and needs a caption. Tests casual creativity and understanding of social media tone.",
+    "impersona_context": "You want to post a photo or something on Instagram/social media but you can't think of a good caption. You don't want it to be try-hard but you also don't want it to be boring. You open an AI chatbot to brainstorm captions."
+  },
+  {
+    "id": "writing_difficult_message",
+    "category": "writing",
+    "name": "Help Me Write a Difficult Message",
+    "quick": false,
+    "description": "The IMPersona needs to send a message about something sensitive — canceling plans, setting a boundary, addressing an issue. Tests tone calibration in high-stakes communication.",
+    "impersona_context": "You need to send someone a message about something uncomfortable — maybe you need to cancel on them, bring up an issue, or say no to something. You know what you want to say but you can't find the right words. You open an AI chatbot to help you word it."
+  },
+  {
+    "id": "writing_personal_statement",
+    "category": "writing",
+    "name": "Personal Statement Help",
+    "quick": false,
+    "description": "The IMPersona is working on a personal statement for an application and is struggling with what to include and how to present themselves. Tests deep collaborative writing on something personal.",
+    "impersona_context": "You're writing a personal statement for a grad school or program application. You don't know what angle to take or how to make your experience sound compelling without being fake. You open an AI chatbot to think through the angle and start drafting."
+  },
+  {
+    "id": "writing_thank_you_note",
+    "category": "writing",
+    "name": "How Do I Thank This Person?",
+    "quick": false,
+    "description": "The IMPersona wants to write a thank-you to someone — a professor, mentor, interviewer, or someone who helped them. Tests genuine expression of gratitude.",
+    "impersona_context": "Someone did something really nice for you — wrote you a recommendation, gave you an opportunity, or went out of their way to help — and you want to thank them properly but don't want it to sound generic. You open an AI chatbot to help you draft it."
+  },
+  {
+    "id": "writing_text_to_ex",
+    "category": "writing",
+    "name": "Should I Send This Text?",
+    "quick": false,
+    "description": "The IMPersona has drafted a text to someone (ex, old friend, someone they're not sure about) and wants a second opinion before sending. Tests judgment and social intelligence.",
+    "impersona_context": "You've drafted a text to someone — maybe an ex, an old friend you had a falling out with, or someone you're not sure where you stand with. You've been staring at it and you're not sure if you should send it. You open an AI chatbot to gut-check it."
+  },
+  {
+    "id": "writing_apologize",
+    "category": "writing",
+    "name": "Help Me Write an Apology",
+    "quick": false,
+    "description": "The IMPersona needs to apologize to someone and wants help doing it well. Tests emotional writing — genuine accountability without groveling.",
+    "impersona_context": "You messed up with someone and you need to apologize. You know you were wrong but you're struggling with how to say it — you don't want it to sound performative or like you're just saying what they want to hear. You open an AI chatbot to help you figure out what to say."
+  },
+  {
+    "id": "writing_bio",
+    "category": "writing",
+    "name": "Write Me a Bio",
+    "quick": false,
+    "description": "The IMPersona needs a bio for something — LinkedIn, a conference, a class introduction. Tests identity articulation and self-presentation.",
+    "impersona_context": "You need to write a short bio about yourself — maybe for a website, a conference, a class, or a professional profile. You hate writing about yourself. You open an AI chatbot to help you draft one."
+  },
+  {
+    "id": "writing_complaint",
+    "category": "writing",
+    "name": "Help Me Write a Complaint",
+    "quick": false,
+    "description": "The IMPersona had a bad experience and wants to write a complaint or review. Tests the balance between being assertive and being constructive.",
+    "impersona_context": "You had a bad experience with a service, company, or institution and you want to write a complaint or leave a review. You're annoyed but you want to be taken seriously, not just sound angry. You open an AI chatbot to help you draft it."
+  },
+  {
+    "id": "writing_recommendation_request",
+    "category": "writing",
+    "name": "How Do I Ask for a Recommendation?",
+    "quick": false,
+    "description": "The IMPersona needs to ask someone for a letter of recommendation and isn't sure how to do it well. Tests professional communication in an asymmetric relationship.",
+    "impersona_context": "You need a letter of recommendation from a professor, boss, or mentor for an application. You're not sure how to ask — you don't want to impose but you need the letter. You open an AI chatbot to help you figure out how to ask."
+  },
+  {
+    "id": "coding_debug_this_error",
+    "category": "coding",
+    "name": "Why Am I Getting This Error?",
+    "quick": false,
+    "description": "The IMPersona has a code error they can't figure out. Tests debugging skills, clear technical communication, and patience.",
+    "impersona_context": "You're writing code and you keep getting an error you don't understand. You've been staring at it for a while and can't figure out what's wrong. You open an AI chatbot to help you debug it."
+  },
+  {
+    "id": "coding_how_do_i_do_x",
+    "category": "coding",
+    "name": "How Do I Do This in Code?",
+    "quick": false,
+    "description": "The IMPersona knows what they want to accomplish but doesn't know the syntax or approach. Tests practical coding help — the classic 'how do I...' question.",
+    "impersona_context": "You're working on a coding project and you know what you want to do but you don't know how to implement it. You've tried googling but the examples don't quite match your situation. You open an AI chatbot to figure it out."
+  },
+  {
+    "id": "coding_review_my_code",
+    "category": "coding",
+    "name": "Can You Review My Code?",
+    "quick": false,
+    "description": "The IMPersona wrote some code and wants feedback on whether it's good. Tests code review skills — catching bugs, suggesting improvements, explaining best practices.",
+    "impersona_context": "You wrote some code that works but you're not sure if it's well-written. You want someone to look it over and tell you if there are better ways to do things. You open an AI chatbot for a code review."
+  },
+  {
+    "id": "coding_explain_this_code",
+    "category": "coding",
+    "name": "What Does This Code Do?",
+    "quick": false,
+    "description": "The IMPersona is reading someone else's code (or their own old code) and can't follow it. Tests the ability to explain code clearly.",
+    "impersona_context": "You're looking at code — maybe from a tutorial, a codebase you inherited, or something you wrote a while ago — and you can't follow what it's doing. You need someone to walk through it. You open an AI chatbot to help you understand it."
+  },
+  {
+    "id": "coding_design_decision",
+    "category": "coding",
+    "name": "Which Approach Should I Use?",
+    "quick": false,
+    "description": "The IMPersona is deciding between different technical approaches and wants help thinking through tradeoffs. Tests architectural thinking and technical reasoning.",
+    "impersona_context": "You're building something and you've thought of a couple different ways to implement it. Each approach has pros and cons and you're not sure which one to go with. You open an AI chatbot to think through the tradeoffs."
+  },
+  {
+    "id": "coding_environment_setup",
+    "category": "coding",
+    "name": "Help Me Set This Up",
+    "quick": false,
+    "description": "The IMPersona is trying to set up a development environment, install something, or configure a tool and it's not working. Tests troubleshooting patience and practical guidance.",
+    "impersona_context": "You're trying to set up something for a project — maybe installing a library, configuring an environment, or getting a tool to work — and you keep hitting errors or it's not doing what the docs say it should. You open an AI chatbot to help you troubleshoot."
+  },
+  {
+    "id": "coding_optimize_this",
+    "category": "coding",
+    "name": "This Is Too Slow",
+    "quick": false,
+    "description": "The IMPersona's code works but is too slow and they need help optimizing it. Tests performance reasoning and the ability to identify bottlenecks.",
+    "impersona_context": "You wrote some code that works correctly but it's way too slow. You're not sure where the bottleneck is or how to speed it up. You open an AI chatbot to figure out how to optimize it."
+  },
+  {
+    "id": "coding_learn_new_framework",
+    "category": "coding",
+    "name": "I'm Learning Something New",
+    "quick": false,
+    "description": "The IMPersona is trying to learn a new language, framework, or tool and feels overwhelmed. Tests the ability to create a learning path and reduce overwhelm.",
+    "impersona_context": "You need to learn a new programming language, framework, or tool for a project or class. You've looked at the docs and tutorials but there's so much to learn and you don't know where to start. You open an AI chatbot to figure out a learning path."
+  },
+  {
+    "id": "coding_git_help",
+    "category": "coding",
+    "name": "I Messed Up My Git",
+    "quick": false,
+    "description": "The IMPersona did something with git and now things are in a bad state. Tests the ability to calmly resolve a common source of developer panic.",
+    "impersona_context": "You did something with git — maybe a bad merge, accidentally committed to the wrong branch, or your repo is in a weird state — and you're panicking because you don't want to lose your work. You open an AI chatbot to help you fix it."
+  },
+  {
+    "id": "coding_project_architecture",
+    "category": "coding",
+    "name": "How Should I Structure This Project?",
+    "quick": false,
+    "description": "The IMPersona is starting a new project and wants help thinking about how to organize it. Tests big-picture technical thinking and practical project architecture.",
+    "impersona_context": "You're starting a new coding project — maybe for a class, a personal project, or a hackathon — and you want to set it up properly from the start. You've done small scripts before but this is bigger and you're not sure how to organize it. You open an AI chatbot to think through the structure."
+  },
+  {
+    "id": "cooking_what_can_i_make",
+    "category": "cooking",
+    "name": "What Can I Make With This?",
+    "quick": true,
+    "description": "The IMPersona has random ingredients and wants meal ideas. Tests practical creativity, preference exploration, and whether the persona engages with food in a personal way.",
+    "impersona_context": "You're hungry and don't want to go to the store. You have some stuff in the fridge and pantry — chicken, rice, some vegetables, basic spices — and you want to make something decent without a recipe that requires 20 ingredients. You open an AI chatbot for ideas."
+  },
+  {
+    "id": "cooking_walk_me_through",
+    "category": "cooking",
+    "name": "Walk Me Through This Recipe",
+    "quick": false,
+    "description": "The IMPersona is attempting to cook something specific and wants step-by-step guidance. Tests patience, practical instruction, and whether the persona asks questions or just follows along.",
+    "impersona_context": "You're trying to cook something you've never made before — you saw a recipe online that looked good but some of the steps are confusing and you're not confident in the kitchen. You open an AI chatbot to walk through it with you."
+  },
+  {
+    "id": "tech_phone_acting_weird",
+    "category": "tech_help",
+    "name": "My Phone Is Acting Weird",
+    "quick": true,
+    "description": "The IMPersona's phone is doing something annoying and they want help fixing it. Tests consumer tech troubleshooting — a very common AI use case distinct from coding.",
+    "impersona_context": "Your phone has been acting up — maybe it's running really slow, the battery is draining way faster than normal, or apps keep crashing. It's been going on for a few days and it's driving you crazy. You open an AI chatbot to troubleshoot it."
+  },
+  {
+    "id": "tech_wifi_setup",
+    "category": "tech_help",
+    "name": "My Internet Won't Work",
+    "quick": true,
+    "description": "The IMPersona is dealing with connectivity issues and is frustrated. Tests the ability to troubleshoot a non-technical user's problem patiently.",
+    "impersona_context": "Your wifi keeps cutting out or is painfully slow. You've already tried turning the router off and on. You're not super technical and you just need it to work because you have stuff to do. You open an AI chatbot to figure out what's wrong."
+  },
+  {
+    "id": "home_something_broke",
+    "category": "home",
+    "name": "Something Broke in My Apartment",
+    "quick": false,
+    "description": "Something in the IMPersona's living space broke or is malfunctioning. Tests practical problem-solving for non-expert home maintenance — the kind of thing you'd text a handy friend about.",
+    "impersona_context": "Something in your apartment isn't working right — maybe the sink is leaking, the toilet keeps running, a light fixture is flickering, or there's a weird stain on the ceiling. You're not handy and you're not sure if this is a DIY fix or if you need to call your landlord. You open an AI chatbot to figure out what to do."
+  },
+  {
+    "id": "interview_prep_tomorrow",
+    "category": "interview",
+    "name": "Interview Tomorrow",
+    "quick": false,
+    "description": "The IMPersona has a job interview tomorrow and wants help preparing. Tests practical coaching, confidence-building, and whether the persona reveals anxieties about self-presentation.",
+    "impersona_context": "You have a job interview tomorrow — it's for a role you actually want. You've done some prep but you're not feeling confident about certain questions, especially behavioral ones and 'tell me about yourself.' You open an AI chatbot to help you prep."
+  },
+  {
+    "id": "interview_debrief",
+    "category": "interview",
+    "name": "How Did My Interview Go?",
+    "quick": true,
+    "description": "The IMPersona just finished an interview and is replaying it in their head. Tests whether the AI can help them process without spiraling — similar energy to a date debrief but professional stakes.",
+    "impersona_context": "You just finished a job interview about an hour ago. Some parts went well, but there were a couple moments where you stumbled or gave an answer you're not sure about. You open an AI chatbot to debrief and figure out how it actually went."
+  },
+  {
+    "id": "negotiation_salary",
+    "category": "negotiation",
+    "name": "Negotiating My Salary",
+    "quick": false,
+    "description": "The IMPersona got a job offer and wants to negotiate but doesn't know how. Tests practical strategy in a high-stakes, uncomfortable situation most people avoid.",
+    "impersona_context": "You got a job offer and the salary is lower than you were hoping for. You've heard you're supposed to negotiate but you've never done it before and you're scared of seeming greedy or having the offer pulled. You open an AI chatbot to figure out how to approach it."
+  },
+  {
+    "id": "negotiation_landlord",
+    "category": "negotiation",
+    "name": "Pushing Back on Rent Increase",
+    "quick": true,
+    "description": "The IMPersona's landlord wants to raise rent and they want to push back. Tests practical negotiation strategy in an asymmetric power dynamic.",
+    "impersona_context": "Your landlord just told you rent is going up significantly when your lease renews. You like your place and don't want to move, but the increase feels steep and you want to try pushing back — you just don't know how to approach it without making things awkward. You open an AI chatbot to help you figure out what to say."
+  },
+  {
+    "id": "planning_busy_day",
+    "category": "planning",
+    "name": "Help Me Plan My Day",
+    "quick": true,
+    "description": "The IMPersona has a packed day and wants help figuring out the order and priorities. Tests routine practical planning — proactive, not stressed.",
+    "impersona_context": "You have a busy day ahead — errands, some work or school stuff, a social thing in the evening, and a couple of tasks you keep putting off. You're trying to figure out how to fit everything in without feeling rushed. You open an AI chatbot to help you map it out."
+  },
+  {
+    "id": "moral_am_i_wrong",
+    "category": "moral",
+    "name": "Am I Being Unreasonable?",
+    "quick": false,
+    "description": "The IMPersona is genuinely unsure whether their reaction to something is fair or if they're overreacting. Tests the AI's ability to help someone reality-check without just validating or dismissing.",
+    "impersona_context": "Something happened recently — maybe a friend did something that bothered you, or you had a reaction to a situation that others seem fine with — and you genuinely can't tell if you're being reasonable or if you're overreacting. You want an honest outside perspective. You open an AI chatbot to talk it through."
+  },
+  {
+    "id": "language_how_do_you_say",
+    "category": "language",
+    "name": "How Do You Say This?",
+    "quick": true,
+    "description": "The IMPersona needs help with a phrase or expression in another language or wants to understand something they encountered. Tests casual language help — a very common AI use case.",
+    "impersona_context": "You need to say or write something in another language — maybe you're texting someone's family member, writing a message to a coworker, or you saw a phrase somewhere and want to know what it actually means and when to use it. You open an AI chatbot to help you with the language."
+  },
+  {
+    "id": "recommendation_book_podcast",
+    "category": "recommendation",
+    "name": "What Should I Read or Listen To?",
+    "quick": false,
+    "description": "The IMPersona wants a book or podcast recommendation. Tests interest exploration and whether the persona reveals intellectual tastes and curiosity patterns.",
+    "impersona_context": "You want to start a new book or find a good podcast but you're overwhelmed by options. You have a vague sense of what you're in the mood for but nothing specific. You open an AI chatbot for recommendations."
+  },
+  {
+    "id": "explain_to_nonexpert",
+    "category": "collaboration",
+    "name": "How Do I Explain This to Someone?",
+    "quick": false,
+    "description": "The IMPersona understands something but needs help translating it for a non-expert audience. Tests the ability to simplify and reframe knowledge for different people.",
+    "impersona_context": "You need to explain something you know well to someone who doesn't have the background — maybe explaining your job or field to a family member, breaking down a technical concept for a friend, or describing your research to someone outside your area. You open an AI chatbot to help you figure out how to explain it."
+  },
+  {
+    "id": "debate_settle_this",
+    "category": "information",
+    "name": "Settle This Debate",
+    "quick": true,
+    "description": "The IMPersona and a friend disagree about something and they want a definitive answer. Tests the ability to engage with a fun social dynamic — being the arbiter without being boring.",
+    "impersona_context": "You and a friend have been going back and forth about something — could be a factual question, a 'which is better' debate, or a trivia-type disagreement. You're convinced you're right and you want backup. You open an AI chatbot to settle it."
+  },
+  {
+    "id": "etiquette_is_this_rude",
+    "category": "etiquette",
+    "name": "What's the Etiquette For This?",
+    "quick": true,
+    "description": "The IMPersona isn't sure about the social norms for a situation and doesn't want to ask anyone they know. Tests social knowledge and the ability to give guidance without being judgmental.",
+    "impersona_context": "You're in a situation where you're not sure what the expected etiquette is — maybe it's about tipping, what to wear to an event, how to behave at a formal dinner, whether you should bring something as a guest, or how to handle a culturally unfamiliar social situation. You open an AI chatbot to ask without having to admit you don't know."
+  },
+  {
+    "id": "nutrition_eat_better",
+    "category": "nutrition",
+    "name": "I Want to Eat Better",
+    "quick": false,
+    "description": "The IMPersona wants to improve their eating habits but doesn't know where to start. Tests practical health guidance without being preachy — adjacent to fitness but focused on food.",
+    "impersona_context": "You've been eating like garbage lately — lots of takeout, skipping meals, or just snacking instead of cooking. You want to eat healthier but you don't want to go on a strict diet or spend hours meal prepping. You just want something realistic. You open an AI chatbot to figure out a plan."
+  },
+  {
+    "id": "pet_is_this_normal",
+    "category": "pets",
+    "name": "Is My Pet Okay?",
+    "quick": true,
+    "description": "The IMPersona's pet is doing something they're not sure about and they want to know if it's normal or concerning. Tests the balance between being helpful and not being alarmist about health stuff.",
+    "impersona_context": "Your pet — a dog or cat — has been doing something that's caught your attention. Maybe they're eating less, acting weird, making a strange noise, or just behaving differently than usual. You're not sure if it's worth a vet visit or if you're overthinking it. You open an AI chatbot to talk it through."
+  },
+  {
+    "id": "pet_training_help",
+    "category": "pets",
+    "name": "How Do I Get Them to Stop Doing That?",
+    "quick": false,
+    "description": "The IMPersona's pet has a behavior problem and they want practical advice. Tests patience and practical guidance for a frustrating but relatable situation.",
+    "impersona_context": "Your pet has a behavior that's driving you nuts — maybe your dog pulls on the leash, barks at everything, or won't stop chewing stuff. Or your cat keeps knocking things off tables, scratching furniture, or yelling at 3am. You've tried a few things but nothing is sticking. You open an AI chatbot for advice."
+  },
+  {
+    "id": "pet_new_pet_decisions",
+    "category": "pets",
+    "name": "Should I Get a Pet?",
+    "quick": false,
+    "description": "The IMPersona is thinking about getting a pet and wants to talk through whether it's a good idea. Tests practical decision-making around a lifestyle commitment.",
+    "impersona_context": "You've been thinking about getting a pet — maybe a dog, a cat, or something else. You want one, but you're not totally sure if your lifestyle, living situation, or budget can handle it right now. You're going back and forth. You open an AI chatbot to think it through."
+  },
+  {
+    "id": "jealousy_friend_success",
+    "category": "jealousy",
+    "name": "Jealous of a Friend's Success",
+    "quick": false,
+    "description": "The IMPersona is feeling jealous of a close friend who just got something they wanted — an opportunity, a relationship, recognition. Tests whether the AI can help them sit with an ugly feeling without dismissing it or moralizing about it.",
+    "impersona_context": "A close friend of yours just got something you've been wanting — maybe they got into a program you applied to, landed an opportunity you were hoping for, or their life just seems to be coming together in a way yours isn't. You're happy for them on some level but the jealousy is real and you feel guilty about it. You open an AI chatbot because you can't really bring this up to anyone else."
+  },
+  {
+    "id": "homesickness_new_place",
+    "category": "homesickness",
+    "name": "Missing Home",
+    "quick": false,
+    "description": "The IMPersona is homesick — missing family, old friends, familiar places. Tests whether the AI can validate the feeling without rushing to fix it or being dismissive. Common for the college/young-adult demographic.",
+    "impersona_context": "You've been away from home for a while — at school or in a new city — and tonight it's really hitting you. You miss your family, your old friends, the places you used to go. Something small triggered it — a song, a smell, a photo — and now you're in your feelings. You open an AI chatbot because you want something to talk to."
+  },
+  {
+    "id": "emergency_locked_out",
+    "category": "emergency_lite",
+    "name": "I Locked Myself Out",
+    "quick": true,
+    "description": "The IMPersona is locked out of their apartment and mildly panicking. Tests whether the AI can be calm and practically helpful in a low-grade crisis — the friend you'd text when you need to think clearly.",
+    "impersona_context": "You just locked yourself out of your apartment. Your keys are inside, your roommate isn't home, and it's late. You're standing outside feeling like an idiot and you're not sure what to do. You open an AI chatbot to figure out your options."
+  },
+  {
+    "id": "research_which_laptop",
+    "category": "research",
+    "name": "Which Laptop Should I Get?",
+    "quick": false,
+    "description": "The IMPersona needs a new laptop and is overwhelmed by options. Tests multi-criteria research help — budget, use case, specs — and whether the persona reveals how they actually use technology.",
+    "impersona_context": "You need a new laptop — your current one is dying. You've been looking at options online and there are way too many choices. You have a rough budget in mind but you're not sure what specs actually matter for what you do. You open an AI chatbot to help you narrow it down."
+  },
+  {
+    "id": "research_which_phone_plan",
+    "category": "research",
+    "name": "Help Me Pick a Phone Plan",
+    "quick": true,
+    "description": "The IMPersona is comparing phone plans and is confused by the options. Tests the ability to cut through marketing jargon and help someone make a practical consumer decision.",
+    "impersona_context": "Your phone plan is too expensive and you want to switch, but comparing plans is a nightmare — every carrier has different tiers, hidden fees, and confusing data limits. You just want something reasonable that won't cost a fortune. You open an AI chatbot to help you compare."
+  },
+  {
+    "id": "research_apartment_comparison",
+    "category": "research",
+    "name": "Which Apartment Should I Pick?",
+    "quick": false,
+    "description": "The IMPersona is choosing between apartments and wants help weighing tradeoffs. Tests structured decision-making with competing priorities — location, price, vibes, commute, roommates.",
+    "impersona_context": "You're apartment hunting and you've narrowed it down to a couple of options, but each one has tradeoffs. One is cheaper but farther from everything, one is in a better location but smaller and more expensive, and there might be a third option with roommates you're not sure about. You open an AI chatbot to help you decide."
+  },
+  {
+    "id": "writing_resume_help",
+    "category": "writing",
+    "name": "Help Me Fix My Resume",
+    "quick": false,
+    "description": "The IMPersona needs help with their resume — what to include, how to describe their experience, formatting. Tests practical self-presentation and whether the AI can draw out accomplishments the persona might undersell.",
+    "impersona_context": "You're updating your resume for job or internship applications and it feels weak. You don't have a ton of traditional work experience and you're not sure how to describe what you have done in a way that sounds good without being dishonest. You open an AI chatbot to help you fix it."
+  },
+  {
+    "id": "bureaucracy_tax_confusion",
+    "category": "bureaucracy",
+    "name": "I Don't Understand My Taxes",
+    "quick": false,
+    "description": "The IMPersona is doing their taxes for the first time (or nearly) and is confused and overwhelmed. Tests the ability to demystify adult bureaucracy patiently — a huge real-world AI use case for young adults.",
+    "impersona_context": "You need to do your taxes and you barely understand how any of it works. You got a W-2 and maybe a 1099, you've heard of deductions but don't know what applies to you, and you're not sure if you should just use TurboTax or if you're going to mess something up and get in trouble. You open an AI chatbot to help you figure it out."
+  },
+  {
+    "id": "bureaucracy_health_insurance",
+    "category": "bureaucracy",
+    "name": "How Does Health Insurance Work?",
+    "quick": false,
+    "description": "The IMPersona is aging off their parents' insurance or picking a plan for the first time and doesn't understand the system. Tests explaining a genuinely confusing system without being condescending.",
+    "impersona_context": "You need to figure out health insurance — maybe you're aging off your parents' plan, starting a new job, or just moved and need coverage. You keep seeing terms like deductible, copay, premium, and in-network, and honestly you don't really know what any of it means or how to pick a plan. You open an AI chatbot to help you make sense of it."
+  },
+  {
+    "id": "car_weird_noise",
+    "category": "car",
+    "name": "My Car Is Making a Weird Noise",
+    "quick": true,
+    "description": "The IMPersona's car is doing something concerning and they're not sure if it's serious or how much getting it fixed should cost. Tests practical troubleshooting in a domain where people commonly get ripped off.",
+    "impersona_context": "Your car has been making a weird noise — maybe a grinding, clicking, or squealing sound — and you don't know much about cars. You're not sure if it's something dangerous that you need to deal with immediately or something minor. You also have no idea what a fair price would be if you took it to a shop. You open an AI chatbot to figure out what to do."
+  },
+  {
+    "id": "moving_new_city_logistics",
+    "category": "moving",
+    "name": "Moving to a New City",
+    "quick": false,
+    "description": "The IMPersona is about to move to a new city and is dealing with the logistical overwhelm — finding housing, setting up utilities, figuring out neighborhoods, transporting stuff. Tests practical planning for a major life transition.",
+    "impersona_context": "You're moving to a new city in a few weeks — for a job, school, or just a fresh start. You have a million things to figure out: where to live, how to move your stuff, what neighborhood to look at, setting up utilities, changing your address. It feels overwhelming and you don't even know what you don't know. You open an AI chatbot to help you start sorting it out."
+  },
+  {
+    "id": "moving_new_city_lonely",
+    "category": "moving",
+    "name": "I Don't Know Anyone Here",
+    "quick": false,
+    "description": "The IMPersona recently moved and is struggling to build a social life from scratch. Tests the emotional side of relocation — overlaps with loneliness but with the specific context of being new somewhere.",
+    "impersona_context": "You moved to a new city recently and you don't really know anyone yet. You go to work or class and come home and that's kind of it. You've tried a couple of things to meet people but it feels forced and awkward. You open an AI chatbot to work through whether the move was a mistake."
+  },
+  {
+    "id": "substance_am_i_overdoing_it",
+    "category": "substance",
+    "name": "Am I Drinking Too Much?",
+    "quick": false,
+    "description": "The IMPersona is quietly wondering if their drinking (or substance use) has become a problem. Tests whether the AI can engage with a sensitive, stigmatized topic without being preachy, alarmist, or dismissive — the trusted friend who takes you seriously.",
+    "impersona_context": "You've been drinking more than usual lately — or maybe it's been a pattern for a while that you're just now noticing. It started as social but now you're reaching for it when you're stressed or bored too. You're not sure if it's a real problem or if you're overthinking it, but the fact that you're even wondering about it is making you uneasy. You open an AI chatbot because it feels safer to work through this with something anonymous than with someone who knows you."
+  },
+  {
+    "id": "writing_text_to_dormant_friend",
+    "category": "writing",
+    "name": "Reaching Out to a Friend You've Drifted From",
+    "quick": false,
+    "description": "The IMPersona wants to reconnect with a friend they haven't spoken to in months. Tests writing a non-awkward catch-up text after a long silence — concrete artifact, real interpersonal stakes.",
+    "impersona_context": "You haven't talked to your friend Priya in about eight months — you used to be close in college and the friendship just kind of faded after you both moved to different cities. You saw her post on Instagram about a new job and you want to text her to say congrats, but it feels weird because of how long it's been. You don't want it to feel out of nowhere or guilt-tripping. You open an AI chatbot to help you draft something."
+  },
+  {
+    "id": "writing_decline_wedding_invite",
+    "category": "writing",
+    "name": "Declining a Close Friend's Wedding",
+    "quick": false,
+    "description": "The IMPersona has to RSVP no to a wedding they wish they could attend. Tests sensitive writing under emotional and financial weight.",
+    "impersona_context": "Your friend Kate is getting married in Mexico in November. You got the save-the-date three weeks ago and you've been avoiding RSVPing because you can't actually afford the trip — flights plus hotel would be around $1,800 and you don't have it right now. You need to RSVP no without making her feel like she's not important to you, and without making it awkwardly about money. You open an AI chatbot to help you word it."
+  },
+  {
+    "id": "writing_ask_friend_for_money",
+    "category": "writing",
+    "name": "Asking a Friend to Pay You Back",
+    "quick": false,
+    "description": "The IMPersona needs to ask a friend to pay back money they owe. Tests low-stakes interpersonal money navigation with a concrete amount and history.",
+    "impersona_context": "Your friend Marcus borrowed $200 from you about three months ago for concert tickets. He said he'd Venmo you 'next week' and never did. You've seen him twice since and he hasn't brought it up. You're not desperate for the money but you're starting to feel weird about it. You open an AI chatbot to help you figure out how to bring it up without it being awkward."
+  },
+  {
+    "id": "decide_unfollow_ex",
+    "category": "dating",
+    "name": "Should I Unfollow My Ex?",
+    "quick": false,
+    "description": "The IMPersona is debating whether to unfollow an ex on social media. Tests low-stakes decision-making about post-breakup boundaries.",
+    "impersona_context": "You broke up with your ex Aliyah six months ago. You're mostly fine, but every time she posts on Instagram (which is a lot — she posts often) it pulls you back in for a few minutes. You've been thinking about unfollowing her, but it feels dramatic since the breakup was mutual and you parted on okay terms. You open an AI chatbot to think through whether to do it."
+  },
+  {
+    "id": "decide_reach_out_to_old_friend",
+    "category": "social",
+    "name": "Should I Reach Out to an Old Friend?",
+    "quick": false,
+    "description": "The IMPersona is debating whether to reconnect with a friend they drifted from after a small falling-out. Tests social decision-making with relational history.",
+    "impersona_context": "You and your old friend Sam haven't talked in three years — you had a small falling-out (you canceled plans last-minute too many times) and the friendship just never recovered. You saw on LinkedIn that they got into a really good grad program, the kind you would've been excited for them about back in the day. You're considering reaching out. You open an AI chatbot to think through whether to do it and how."
+  },
+  {
+    "id": "interpret_boss_slack_message",
+    "category": "work",
+    "name": "What Did My Boss Mean By That?",
+    "quick": false,
+    "description": "The IMPersona is trying to decode a short, ambiguous message from their manager when she's normally chatty. Tests workplace social intelligence with a concrete signal.",
+    "impersona_context": "Your manager Rachel has been chatty in Slack all month — multi-paragraph replies, emojis, sometimes voice notes. Yesterday you sent her an update on a project and she replied with just 'thanks 👍' and went silent. It's been about 18 hours. You don't think you did anything wrong but the tone change is bugging you. You open an AI chatbot to talk it through."
+  },
+  {
+    "id": "interpret_date_radio_silence",
+    "category": "dating",
+    "name": "Why Haven't They Texted Back?",
+    "quick": false,
+    "description": "The IMPersona hasn't heard from someone they've been seeing after a date that seemed to go well. Tests social interpretation of an ambiguous absence with concrete timeline.",
+    "impersona_context": "You went on your fourth date with Jordan this past Saturday — you went to a brewery, had dinner, and they kissed you at your door. You texted them Sunday morning saying you had a great time and they replied 'me too 🙂'. It's now Wednesday afternoon and you haven't heard anything else from them. You open an AI chatbot to think through whether to reach out or wait."
+  },
+  {
+    "id": "split_uneven_vacation_costs",
+    "category": "money",
+    "name": "Splitting Uneven Vacation Costs",
+    "quick": false,
+    "description": "The IMPersona is dealing with awkward post-trip cost rebalancing among friends — a concrete coordination problem with relational stakes.",
+    "impersona_context": "You and three friends just got back from a long weekend in Mexico — you stayed in a 4-bedroom Airbnb. The cost was split evenly four ways at $400/person, but two of your friends (Nina and Kev — they're together) took the master bedroom while you and your friend Theo had the smaller rooms. Theo just texted asking if you think the costs should be rebalanced. You think he has a point but it feels weird to bring up after the fact. You open an AI chatbot to think through what to say."
+  },
+  {
+    "id": "prep_meeting_partners_parents",
+    "category": "dating",
+    "name": "Meeting My Partner's Parents Tomorrow",
+    "quick": false,
+    "description": "The IMPersona is preparing for a first-time dinner with a partner's family. Tests pre-event social preparation with concrete details.",
+    "impersona_context": "You're meeting your partner Daniel's parents for dinner tomorrow night — first time. You've been together six months. He says they're 'pretty chill' but warned you that his dad asks intense questions and his mom is observant. You're not sure what to wear, what to bring, or what to be ready to talk about. You're more nervous than you'd like to admit. You open an AI chatbot to help you prep."
+  },
+  {
+    "id": "bringing_up_disrespect_with_friend",
+    "category": "conflict",
+    "name": "Friend Made a Joke at My Expense",
+    "quick": false,
+    "description": "The IMPersona is deciding whether and how to address a friend's hurtful joke. Tests low-grade conflict navigation with concrete relational stakes.",
+    "impersona_context": "At a dinner party last weekend with mutual friends, your friend Eli made a joke about your job — something to the effect of 'he's just there to make slides at this point' — that landed flat. A few people laughed awkwardly. You played it off in the moment but it's been sitting with you all week. You don't think Eli meant to be cruel but it pissed you off and you want to bring it up. You open an AI chatbot to think through how."
+  }
+]

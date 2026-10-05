@@ -1,0 +1,17 @@
+# Minimum versions are the ones this release was tested with.
+
+# Core pipeline
+anthropic>=1.11,<2
+python-dotenv>=1.0.0
+
+# Dataset generation (used by IMPersona2/)
+openai>=3.24,<4
+
+# Training (Modal cloud GPUs)
+modal>=1.6,<2
+
+# DPO pipeline config (modal_app::run_pipeline_local reads YAML)
+pyyaml>=6.0
+
+# Dense memory-search index (IMPersona2.memory_search.MemoryStore)
+numpy>=1.24

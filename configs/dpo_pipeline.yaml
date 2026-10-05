@@ -1,0 +1,67 @@
+# ────────────────────────────────────────────────────────────────────
+# IMPersona iterative DPO pipeline — sample config
+# ────────────────────────────────────────────────────────────────────
+# Launch with:
+#   modal run modal_app.py::run_pipeline_local --config-path configs/dpo_pipeline.yaml
+#
+# The orchestrator (`run_pipeline` in modal_app.py) loops N rounds of:
+#   eval  →  generate DPO data  →  train DPO
+# checkpointing progress to /data/pipelines/<pipeline_name>/state.json on the
+# Modal volume so the pipeline is fully resumable. Re-running the same command
+# skips any step the state file marks as "done".
+#
+# Per-round identifiers are auto-derived from `pipeline_name`:
+#   eval label:    {pipeline_name}-r{N}-eval
+#   DPO dataset:   /data/dpo_data/{pipeline_name}-r{N}.json
+#   adapter:       {pipeline_name}-r{N}-adapter
+#
+# Round-1 starts the partner from `partner.base_adapter` (use "" for the
+# vanilla model). Each subsequent round continues DPO from the prior round's
+# adapter via train_dpo's `init_adapter_name`.
+# ────────────────────────────────────────────────────────────────────
+
+# ── Run identity ──
+pipeline_name: dpo-pipeline-v1            # used as a prefix for all artifacts
+num_rounds: 3
+# persona_name: Jane                       # optional — defaults to the name in persona_config.json;
+                                           # used in translator prompt + chosen-text filter
+
+# ── IMPersona (the simulated user) ──
+# This adapter is loaded for inference only; never trained.
+impersona:
+  # model: <hf-model-id>                    # optional — defaults to user_model.base in configs/models.yaml
+  adapter: adapter-user-model              # your IMPersona adapter (step 4's default name)
+  # template: <lf-template>                # optional — detected from the model name
+
+# ── Partner (the AI assistant being DPO-tuned) ──
+partner:
+  # model: <hf-model-id>                    # optional — defaults to assistant.base in configs/models.yaml
+  base_adapter: ""                         # "" = round 1 starts from the untrained assistant
+
+# ── Eval (per round) ──
+eval:
+  num_trials: 10                           # scalar — same trial count every round
+  critic_mode: true                        # authenticity addendum for IMPersona
+  include_prior_cot: false                 # true only if the IMPersona was trained on add_prior_cot data
+  max_concurrent: 75                       # conversations in parallel
+  max_messages: 20
+  # partner_template: ""                   # optional — auto-detected from model name
+  # partner_quantization_bit: 0
+  # category: null
+
+# ── DPO data generation (per round) ──
+dpo_gen:
+  filter_persona_name: true                # drop pairs where `chosen` literally mentions the persona's name
+  max_workers: 20                          # translate+rewrite thread-pool size
+
+# ── DPO training (per round) ──
+training:
+  epochs: 2
+  batch_size: 1
+  grad_accum: 8
+  lr: 3.0e-6
+  lora_rank: 32
+  lora_alpha: 64
+  cutoff_len: 4096                         # 8192 ran out of memory for the default assistant on 2× H100
+  pref_beta: 0.1
+  pref_loss: sigmoid                       # sigmoid | orpo | simpo
